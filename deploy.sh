@@ -3,7 +3,7 @@
 # Set your project name, PHP version, clone link, and domain
 project_name="laravel-docker"
 php_version="8.2"
-clone_link="https://github.com/your_username/your_repository.git" # Replace with your actual repository link
+clone_link="https://github.com/algonacci/laravel-docker.git" # Replace with your actual repository link
 domain="laravel.braincore.id" # Replace with your actual domain or IP
 
 sudo apt update -y
