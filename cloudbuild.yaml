@@ -20,5 +20,5 @@ steps:
       - "--memory=2048Mi"
       - "--allow-unauthenticated"
 images:
-  - "gcr.io/$PROJECT_ID/first-laravel-project:$COMMIT_SHA"
-logsBucket: "gs://laravel-buckets/logs"
+  - "gcr.io/$PROJECT_ID/laravel-docker:$COMMIT_SHA"
+logsBucket: "gs://laravel-buckets-1/logs"
