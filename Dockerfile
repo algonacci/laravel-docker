@@ -5,6 +5,8 @@ COPY .env.example /app/.env
 
 RUN cat /app/.env
 
+RUN docker-php-ext-install pdo pdo_mysql
+
 RUN apt-get update && apt-get install -y \
     git \
     curl \
