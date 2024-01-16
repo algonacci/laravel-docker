@@ -16,7 +16,7 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
     --install-dir=/usr/bin --filename=composer
 
 RUN cd /app && composer update
-RUN cd /app && php artisan key:generate
+RUN cd /app && php artisan key:generate && php artisan migrate
 
 WORKDIR /app
 
